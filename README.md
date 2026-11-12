@@ -12,7 +12,7 @@ The code is based on the authors' project, and the original license is retained.
 
 ## 2. Environment and setup
 
-- Computer: MacBook Air (M2, 2022), Apple M2, 16 GB RAM.
+- Computer: MacBook Air (M2, 2022), Apple M2.
 - Recorded software: macOS 27.0.1, arm64, Python 3.13.5. Package versions are in `requirements.txt`.
 - API: DeepSeek, model `deepseek-flash`, base URL `https://api.deepseek.com`, OpenAI-compatible backend.
 - Answer temperature: 0.7 for categories 1-4 and 0.5 for category 5. Other calls normally use 0.7; the focused keyword retry uses 0.3.

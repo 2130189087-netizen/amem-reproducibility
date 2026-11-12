@@ -1,3 +1,4 @@
+#modified：evaluate k=10 and k=5
 """
 Evaluation harness using the robust memory layer (no JSON schema dependency).
 Drop-in replacement for test_advanced.py.

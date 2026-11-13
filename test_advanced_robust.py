@@ -114,6 +114,7 @@ Keywords:"""
                         rng: Optional[random.Random] = None) -> tuple:
         """Generate answer for a question — plain text, no JSON schema."""
         keywords = self.generate_query_llm(question)
+        #experiment:--retrieve_k 10 for baseline,5 for comparison
         raw_context = self.retrieve_memory(keywords, k=self.retrieve_k)
         context = raw_context
 

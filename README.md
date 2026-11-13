@@ -8,7 +8,7 @@ I used the [A-MEM authors' code](https://github.com/WujiangXu/A-mem) to test mem
 
 I used DeepSeek and the first conversation, which has 199 questions. I compared retrieval k=10 with k=5 and ran each setting three times. The same memory was reused. This is a partial reproduction; my scores are not directly comparable to the paper because the model and experiment settings differ.
 
-The code is based on the authors' project, and the original license is retained. The exact upstream commit used when downloading the project was not recorded.
+The code is based on the authors' project, and the original license is retained.
 
 ## 2. Environment and setup
 
